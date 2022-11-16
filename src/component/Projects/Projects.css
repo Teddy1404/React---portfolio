@@ -1,0 +1,24 @@
+.container{
+    display: grid;
+    gap: 2.rem;
+}
+.r-1{
+    justify-content: center;
+    align-items: center;
+}
+.col-md-4{
+    margin-bottom: 2rem;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+#projects{
+    margin: 2rem;
+}
+.projects_item-cta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    margin: 1.2rem 0 2rem;  
+}

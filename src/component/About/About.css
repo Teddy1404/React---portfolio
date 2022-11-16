@@ -1,0 +1,100 @@
+
+.about_me{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+   
+ 
+ 
+}
+.about_me_image{
+    border-radius: 2rem;
+    overflow: hidden;
+  
+   width: 22rem;
+   height: 22rem;
+
+   
+}
+.about_cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+    margin-right: 2rem;
+   
+}
+.about_card{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+   text-align: center;
+   
+}
+.about_card:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+
+}
+.fa-brands,.fa-solid{
+    color: var(--color-primary);
+    font-size: 1.4rem;
+ 
+
+    
+}
+.about_card h5{
+    font-size: 0.7rem;
+    color: var(color-light);
+
+}
+.about_content p{
+margin: 2rem 0 2.6rem ;
+color: var(--color-light);
+}
+.card-body{
+   align-items: center;
+}
+.aa{
+    margin-top: 2rem;
+}
+
+@media screen and(max-width:1024px) {
+    .about_container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .about_me{
+        width: 50%;
+        margin: 2rem auto 4rem;
+
+    }
+    .about_content p{
+        margin: 1rem 0 1.5rem;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about_container{
+     display: block;
+    }
+   .about_me{
+    width: 100%;
+    margin: 0 auto 3rem;
+   }
+   .about_cards{
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+   }
+   .about_content{
+    text-align: center;
+    
+   }
+   .about_content p{
+    margin-top: 2rem ;
+    margin-bottom: 2rem;
+   }
+   
+   
+}
