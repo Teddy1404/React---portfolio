@@ -3,12 +3,12 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <section id='footer'>
+    <section className='foooter' id='footer'>
        <ul className='permalinks'>
-        <li><a href='#'>Home</a></li>
-        <li><a href='#about'>About</a></li>
-        <li><a href='#projects'>Projects</a></li>
-        <li><a href='#contact'>Contact</a></li>
+        <li><a className="links-color"href='#'>Home</a></li>
+        <li><a className="links-color"href='#about'>About</a></li>
+        <li><a className="links-color"href='#projects'>Projects</a></li>
+        <li><a className="links-color"href='#contact'>Contact</a></li>
         
        </ul>
 
