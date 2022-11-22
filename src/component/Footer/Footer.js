@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <footer id='footer'>
+    <section id='footer'>
        <ul className='permalinks'>
         <li><a href='#'>Home</a></li>
         <li><a href='#about'>About</a></li>
@@ -23,7 +23,7 @@ const Footer = () => {
             
         </small>
        </div>
-    </footer>
+    </section>
   )
 }
 
