@@ -11,6 +11,7 @@ const[activenav,setActivenav]=useState('#')
     {/* <a href="#Skills" onClick={()=>setActivenav('#Skills')} className={activenav=== '#Skills'?'active':''} rel="noreferrer"><i className="fa-solid fa-award"></i></a> */}
     <a href="#projects" onClick={()=>setActivenav('#projects')} className={activenav === '#projects' ?'active':''} rel="noreferrer" ><i className="fa-solid fa-check-to-slot"></i></a>
     <a href="#contact"  onClick={()=>setActivenav('#contact')} className={activenav === '#contact' ?'active':''} rel="noreferrer"><i className="fa-solid fa-message"></i></a>
+    <a href="#footer"  onClick={()=>setActivenav('#footer')} className={activenav === '#footer' ?'active':''} rel="noreferrer"><i class="fa-solid fa-copyright"></i></a>
    </nav>
   )
 }

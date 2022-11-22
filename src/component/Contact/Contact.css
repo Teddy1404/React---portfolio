@@ -1,9 +1,9 @@
- /* .container.contact-123{
+  /* .container.contact-123{
     width: 58%;
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
-}   */
+}     */
  .contact-options{
     display: flex;
     flex-direction: column;
@@ -47,17 +47,13 @@ input,textarea{
     resize: none;
     color: white;
 } 
- /* @media screen and(max-width:1024px) {
+  @media screen and(min-width:1024px) {
+   
     .container.contact-123{
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-    
+        width: 58%;
+        display: grid;
+        grid-template-columns: 30% 58%;
+        gap: 12%;
+        
+    }    
 }
-@media screen and(max-width:600px) {
-    .container.contact-123{
-       flex-basis: 100%;
-       width: 100%;
-    }
-    
-} */
