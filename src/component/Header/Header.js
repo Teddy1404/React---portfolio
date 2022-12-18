@@ -1,5 +1,5 @@
 import React from 'react'
-import cv from '../../assets/cv.pdf'
+import cv from '../../assets/mcv.pdf'
 import killua from '../../assets/kill.png'
 import './Header.css'
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
        Web Developer
     </h5>
     <div className="cta">
-    <a href={cv} className="btn" >Download CV</a>
+    <a href={cv} className="btn" target="_blank" rel="noreferrer">Download CV</a>
     <a href="#contact" className="btn btn-primary">Let's Talk</a>
   </div>
 
