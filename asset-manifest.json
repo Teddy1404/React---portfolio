@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/React---portfolio/static/css/main.94c47486.css",
-    "main.js": "/React---portfolio/static/js/main.3443ec1b.js",
+    "main.js": "/React---portfolio/static/js/main.94e81fd8.js",
     "static/js/787.60235f71.chunk.js": "/React---portfolio/static/js/787.60235f71.chunk.js",
     "static/media/bg-6.jpg": "/React---portfolio/static/media/bg-6.6c1e4a9e3eaa98ed919a.jpg",
     "static/media/kill.png": "/React---portfolio/static/media/kill.ef2bcf638da98a275981.png",
-    "static/media/cv.pdf": "/React---portfolio/static/media/cv.273d897ee03656bbf810.pdf",
     "static/media/killua.png": "/React---portfolio/static/media/killua.8a473f92b240cbcb683b.png",
     "static/media/news.png": "/React---portfolio/static/media/news.822013116567a9831c16.png",
     "static/media/manga.png": "/React---portfolio/static/media/manga.749b73f2818d40ac5856.png",
     "static/media/dice game.png": "/React---portfolio/static/media/dice game.6fa47f08ba9e5a407f0c.png",
     "static/media/tindog.png": "/React---portfolio/static/media/tindog.9fd481d910db94548c9a.png",
+    "static/media/mcv.pdf": "/React---portfolio/static/media/mcv.f336afe9b11a6c6bd0ab.pdf",
     "index.html": "/React---portfolio/index.html",
     "main.94c47486.css.map": "/React---portfolio/static/css/main.94c47486.css.map",
-    "main.3443ec1b.js.map": "/React---portfolio/static/js/main.3443ec1b.js.map",
+    "main.94e81fd8.js.map": "/React---portfolio/static/js/main.94e81fd8.js.map",
     "787.60235f71.chunk.js.map": "/React---portfolio/static/js/787.60235f71.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94c47486.css",
-    "static/js/main.3443ec1b.js"
+    "static/js/main.94e81fd8.js"
   ]
 }
